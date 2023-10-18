@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Un package logiciel conçu pour générer des scripts SQL, afin d’aider les développeurs à interagir avec des bases de données relationnelles.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
