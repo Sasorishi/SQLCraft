@@ -2,7 +2,8 @@
   "name": "sqlcraft",
   "version": "1.0.0",
   "description": "Un package logiciel conçu pour générer des scripts SQL, afin d’aider les développeurs à interagir avec des bases de données relationnelles.",
-  "main": "index.js",
+  "main": "./src/functions.js",
+  "files": ["src/**/*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
