@@ -26,7 +26,7 @@ export const sqlCraft = {
         return query;
     },
     UPDATE: function(table, updates, condition) {
-        let query = "UPDATE " + table + " SET ";
+        let query = "UPDATE " + table + " SET " + updates
 
         if (condition) {
             query += " WHERE " + condition;
