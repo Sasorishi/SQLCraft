@@ -1,9 +1,11 @@
 {
   "name": "sqlcraft",
   "version": "1.0.0",
-  "description": "Un package logiciel conçu pour générer des scripts SQL, afin d’aider les développeurs à interagir avec des bases de données relationnelles.",
-  "main": "index.js",
   "type": "module",
+  "description": "Un package logiciel conçu pour générer des scripts SQL, afin d’aider les développeurs à interagir avec des bases de données relationnelles.",
+  "main": "app.js",
+  "type": "module",
+  "files": ["src/**/*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +14,7 @@
     "url": "git+https://github.com/Sasorishi/SQLCraft.git"
   },
   "author": "Alban ON",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Sasorishi/SQLCraft/issues"
   },
