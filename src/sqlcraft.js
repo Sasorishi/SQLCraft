@@ -1,20 +1,3 @@
-import { Comment } from './data.js';
-
-function loadSchema(schema) {
-    const message = schema ? "L'objet JSON est récupéré :" : "L'objet JSON n'est pas récupéré !";
-    console.log(message, schema);
-}
-
-function createDatabase(name) {
-    let query = `CREATE DATABASE IF NOT EXISTS ${name};`;
-    return query;
-}
-
-function deleteDatabase(name) {
-    let query = `DROP DATABASE IF NOT EXISTS ${name};`;
-    return query;
-}
-
 export const sqlCraft = {
     SELECT: function(columns, table, condition) {
         let query = "SELECT ";
