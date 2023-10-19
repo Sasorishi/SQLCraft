@@ -5,8 +5,15 @@ function loadSchema(schema) {
     console.log(message, schema);
 }
 
-loadSchema(Comment.name);
+function createDatabase(name) {
+    let query = `CREATE DATABASE IF NOT EXISTS ${name};`;
+    return query;
+}
 
+function deleteDatabase(name) {
+    let query = `DROP DATABASE IF NOT EXISTS ${name};`;
+    return query;
+}
 
 export const sqlCraft = {
     SELECT: function(table, columns, condition) {
