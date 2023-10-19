@@ -4,9 +4,16 @@
 SQLCraft is a software package designed to generate scripts to assist developers in interacting with relational databases.
 
 ## 👉 Getting Started
-Here is an example of how to use one of SQLcraft's main functions :
+Here is an example of how to use many of SQLcraft's main functions :
  ```javascript
-///
+//  Select all id of the table users with the condition id < 5
+sqlcraft.SELECT("id", "users", "id < 5")
+
+// Delete all the informations of the id 3 on the table users
+sqlcraft.DELETE("users", "id = 5")
+
+// Update the age of the user Arnaud so that he's 24
+sqlcraft.UPDATE("users", "age = 24", "name = Arnaud")
 ```
 
 ## 🔧 Installation
