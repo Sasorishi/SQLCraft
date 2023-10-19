@@ -1,4 +1,4 @@
-![SQLCraft logo](./assets/images/sqlcraft-banner.jpg)
+![SQLCraft logo](./src/assets/images/sqlcraft-banner.jpg)
 [![install size](https://packagephobia.com/badge?p=sqlcraft)](https://packagephobia.com/result?p=sqlcraft) [![npm version](https://badge.fury.io/js/sqlcraft.svg)](https://badge.fury.io/js/sqlcraft)
 SQLCraft is a software package designed to generate scripts to assist developers in interacting with relational databases.
 
